@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Aux from '../../hoc/Auxilary/Aux'
+import Aux from '../../hoc/Auxilary/Auxilary'
 import HomeSlider from '../../components/HomeSlider/HomeSlider'
 
 
