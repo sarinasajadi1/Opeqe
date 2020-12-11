@@ -1,3 +1,8 @@
+.footer{
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+
 body a:focus, body a:hover, body a{
     text-decoration: none;
 }

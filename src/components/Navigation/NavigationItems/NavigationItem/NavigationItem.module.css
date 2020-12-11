@@ -34,6 +34,13 @@
         cursor: pointer;
     }
 
+    .NavigationItem:first-child a{
+        height: 40px;
+        width: 43px;
+        vertical-align: middle;
+        padding: 7px 10px;
+    }
+
     .NavigationItem:nth-child(2) a{
         background-color: #000;
         border-radius: 50px;

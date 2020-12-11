@@ -8,9 +8,26 @@ import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import Footer from '../../components/Footer/Footer'
 
 class Layout extends Component {
-    state = {
-        showSideDrawer: false
-    }
+    constructor(){
+        super()
+        this.state = {
+            showSideDrawer: false,
+            scrolled: false
+        }
+    }
+    
+
+
+    componentDidMount(){
+        window.onscroll = function() {
+            if(window.pageYOffset > 30) {
+                this.setState({scrolled: true})
+            }
+            else{
+                this.setState({scrolled: false})
+            }
+        }.bind(this)
+    }
 
     sideDrawerClosedHandler = () => {
         this.setState( { showSideDrawer: false } );
@@ -26,6 +43,7 @@ class Layout extends Component {
         return (
             <Aux>
                 <Toolbar
+                    scrolled={this.state.scrolled}
                     isAuth={this.props.isAuthenticated}
                     drawerToggleClicked={this.sideDrawerToggleHandler} />
                 <SideDrawer
