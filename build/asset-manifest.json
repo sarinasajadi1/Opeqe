@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79dc2665.chunk.css",
+    "main.js": "/static/js/main.61d021a6.chunk.js",
+    "main.js.map": "/static/js/main.61d021a6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b100e1f2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b100e1f2.js.map",
+    "static/css/2.1646c65d.chunk.css": "/static/css/2.1646c65d.chunk.css",
+    "static/js/2.21bb0a53.chunk.js": "/static/js/2.21bb0a53.chunk.js",
+    "static/js/2.21bb0a53.chunk.js.map": "/static/js/2.21bb0a53.chunk.js.map",
+    "static/css/3.b6b42a09.chunk.css": "/static/css/3.b6b42a09.chunk.css",
+    "static/js/3.f64898ec.chunk.js": "/static/js/3.f64898ec.chunk.js",
+    "static/js/3.f64898ec.chunk.js.map": "/static/js/3.f64898ec.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a8d39440cd1c2945af6d34ef47899672.js": "/precache-manifest.a8d39440cd1c2945af6d34ef47899672.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1646c65d.chunk.css.map": "/static/css/2.1646c65d.chunk.css.map",
+    "static/css/3.b6b42a09.chunk.css.map": "/static/css/3.b6b42a09.chunk.css.map",
+    "static/css/main.79dc2665.chunk.css.map": "/static/css/main.79dc2665.chunk.css.map",
+    "static/js/2.21bb0a53.chunk.js.LICENSE": "/static/js/2.21bb0a53.chunk.js.LICENSE",
+    "static/media/food.jpg": "/static/media/food.81385fef.jpg",
+    "static/media/footer.svg": "/static/media/footer.943f9d46.svg",
+    "static/media/opeqe-logo.svg": "/static/media/opeqe-logo.9e778b6d.svg",
+    "static/media/slider.jpg": "/static/media/slider.0d61a544.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b100e1f2.js",
+    "static/css/2.1646c65d.chunk.css",
+    "static/js/2.21bb0a53.chunk.js",
+    "static/css/main.79dc2665.chunk.css",
+    "static/js/main.61d021a6.chunk.js"
+  ]
+}
